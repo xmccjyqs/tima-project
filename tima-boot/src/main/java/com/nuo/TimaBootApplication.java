@@ -13,6 +13,7 @@ public class TimaBootApplication {
     public static void main(String[] args) {
         log.info("hello java!!!");
         System.out.println("hello timanetworks!!!");
+        System.out.println("fsdfsfsdf");
         SpringApplication.run(TimaBootApplication.class, args);
     }
 
