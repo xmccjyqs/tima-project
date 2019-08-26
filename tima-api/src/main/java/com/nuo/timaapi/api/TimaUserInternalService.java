@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @Version 1.0
  */
 @RequestMapping("internal")
-public interface TimaStudentInternalService {
+public interface TimaUserInternalService {
 
     @RequestMapping("user/id/{id}")
     TimaUser findTimaUserById(@PathVariable Integer id);
