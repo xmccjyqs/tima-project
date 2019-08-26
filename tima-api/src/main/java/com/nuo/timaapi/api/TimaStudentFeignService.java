@@ -4,5 +4,5 @@ import com.nuo.timadomain.TimaStudent;
 
 public interface TimaStudentFeignService {
 
-    TimaStudent findTimaStudentBYId(Integer id);
+   TimaStudent findTimaStudentBYId(Integer id);
 }
